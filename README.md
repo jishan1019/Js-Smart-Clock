@@ -2,7 +2,7 @@
 
 ![image](https://i.ibb.co/12JHGzX/smart-clock.png)
 
-Wellcoemt to Js Smart Clock.
+Wellcoemt to Js Smart Clock. <br>
 <strong>Key and Features</strong>
 
 - Userfriendly ui design
