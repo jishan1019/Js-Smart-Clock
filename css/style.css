@@ -34,12 +34,20 @@
     backdrop-filter: blur(40px);
 }
 
+
 .clock span{
     font-size: 80px ;
     width: 110px ;
     display: inline-block;
     text-align: center;
     position: relative;
+}
+
+@media screen and (max-width:768px){
+    .clock span {
+            font-size: 40px;
+            width: 50px;
+        }
 }
 
 .clock span::after{
