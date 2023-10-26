@@ -43,12 +43,23 @@
 }
 
 .clock span::after{
-    content: 'HOURS';
     font-size: 16px;
     position: absolute;
-    bottom: -5px;
+    bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#hours::after{
+    content: 'HOURS';
+}
+
+#minute::after {
+    content: 'MIN';
+}
+
+#second::after {
+    content: 'SEC';
 }
 
 .container::before{
